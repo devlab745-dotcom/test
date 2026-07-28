@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CustomController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -94,4 +95,4 @@ Route::get('/setting',function(){
 
 Route::resource('tests', \App\Http\Controllers\CustomController::class);
 
-
+Route::get('/test2',[CustomController::class,'test2']);

@@ -57,5 +57,10 @@ class CustomController extends Controller
         $test->delete();
 
         return redirect()->route('tests.index')->with('success', 'Record deleted successfully.');
+
     }
+    public function test2(){
+        return 'test2';
+    }
+
 }
