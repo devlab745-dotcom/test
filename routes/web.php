@@ -96,3 +96,4 @@ Route::get('/setting',function(){
 Route::resource('tests', \App\Http\Controllers\CustomController::class);
 
 Route::get('/test2',[CustomController::class,'test2']);
+Route::get('/test3',[CustomController::class,'test3']);

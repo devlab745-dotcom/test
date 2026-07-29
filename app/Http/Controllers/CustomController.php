@@ -62,5 +62,8 @@ class CustomController extends Controller
     public function test2(){
         return 'test2';
     }
+    public function test3(){
+        return 'test3';
+    }
 
 }
